@@ -1,4 +1,4 @@
-﻿namespace MLtest.YoloParser
+﻿namespace MLtest.DataModel
 {
     public class DimensionsBase
     {

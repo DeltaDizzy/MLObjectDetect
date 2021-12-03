@@ -1,6 +1,6 @@
 ﻿using System.Drawing;
 
-namespace MLtest.YoloParser
+namespace MLtest.DataModel
 {
     public class BoundingBoxDimensions : DimensionsBase { }
 

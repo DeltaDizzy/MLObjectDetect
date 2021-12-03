@@ -1,6 +1,6 @@
 ﻿namespace MLtest
 {
-    public partial class OnnxModelScorer
+    public partial class Trainer
     {
         public struct ImageNetSettings
         {
