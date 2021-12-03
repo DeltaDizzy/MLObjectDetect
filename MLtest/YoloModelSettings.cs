@@ -2,7 +2,7 @@
 {
     public partial class OnnxModelScorer
     {
-        public struct TinyYoloModelSettings
+        public struct YoloModelSettings
         {
             // for checking Tiny yolo2 Model input and output parameter names,
             // you can use tools like Netron, 

@@ -33,7 +33,7 @@ namespace MLtest
             var pipeline = mlContext.Transforms.LoadImages(outputColumnName: "image", imageFolder: "", inputColumnName: nameof(ImageNetData.ImagePath))
                 .Append(mlContext.Transforms.ResizeImages(outputColumnName: "image", imageWidth: ImageNetSettings.imageWidth, imageHeight: ImageNetSettings.imageHeight, inputColumnName: "image"))
                 .Append(mlContext.Transforms.ExtractPixels(outputColumnName: "image"))
-                .Append(mlContext.Transforms.ApplyOnnxModel(modelFile: modelLocation, outputColumnNames: new[] {TinyYoloModelSettings.ModelOutput}, inputColumnNames: new[]));
+                .Append(mlContext.Transforms.ApplyOnnxModel(modelFile: modelLocation, outputColumnNames: new[] {YoloModelSettings.ModelOutput}, inputColumnNames: new[]));
         }
     }
 }
